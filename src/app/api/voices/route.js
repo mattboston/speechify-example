@@ -19,7 +19,7 @@ export async function GET() {
   let voicesData = await apiRes.json();
 
   // Check if SilkyJohnson is in the list and make it the default if it is
-  const silkyJohnsonIndex = voicesData.findIndex(voice => voice.display_name === "SilkyJohnson");
+  const silkyJohnsonIndex = voicesData.findIndex(voice => voice.display_name === "SilkyJohnson2");
   if (silkyJohnsonIndex > 0) {  // Ensure it's in the list and not already the first item
     const silkyJohnsonVoice = voicesData.splice(silkyJohnsonIndex, 1)[0];
     voicesData.unshift(silkyJohnsonVoice);  // Move SilkyJohnson to the front of the list

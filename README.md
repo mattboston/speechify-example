@@ -29,3 +29,7 @@ The example is written in JavaScript and intentionally kept simple to focus on t
 4. Build the client: `npm run build`
 5. Start the server: `npm start`
 6. Open the browser at `http://localhost:4040`
+
+## Speechify Cloned Voices
+
+This example uses the cloned voice "SilkyJohnson". You can clone your own voice from the [Speechify AI Console](https://console.sws.speechify.com/voices/cloned-voices).

@@ -27,7 +27,7 @@ export default function VoiceSelector({ onVoiceSelect, selectedVoice }: VoiceSel
         const data = await response.json();
         
         setVoices(data);
-        const silkyVoice = data.find(voice => voice.display_name === "SilkyJohnson");
+        const silkyVoice = data.find(voice => voice.display_name === "SilkyJohnson2");
         if (silkyVoice) {
           onVoiceSelect(silkyVoice.id);
         } else if (data.length > 0 && !selectedVoice) {
